@@ -53,10 +53,9 @@
 
     <distributionManagement>
         <repository>
-            <id>maven-salas-libs-release-local</id>
-            <url>https://salas05.jfrog.io/artifactory/maven-salas-libs-release-local</url>
+            <id>dev</id>
+            <url>file://jarstaging</url>
         </repository>
     </distributionManagement>
-
 
 </project>
