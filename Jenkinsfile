@@ -35,7 +35,7 @@ pipeline {
                         "files": [
                             {
                                 "pattern": "jarstaging/(*)",
-                                "target": "mavaen-salas-libs-release-local/com/salas/demo-workshop",
+                                "target": "mavaen-salas-libs-release-local",
                                 "flat": "false",
                                 "props": "${properties}",
                                 "exclusions": [ "*.sha1", "*.md5"]
