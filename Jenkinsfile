@@ -36,7 +36,7 @@ pipeline {
                         "files": [
                             {
                                 "pattern": "jarstaging/*.jar",
-                                "target": "libs-release-local/",
+                                "target": "mavaen-salas-libs-release-local/",
                                 "flat": "true",
                                 "props": "${properties}",
                                 "exclusions": [ "*.sha1", "*.md5"]
