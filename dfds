@@ -1,0 +1,95 @@
+[33mcommit 59f6bba5f251a399de9316b883cb20c8324cdefd[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Vladyslav Hasporian <saslasengland33@gmail.com>
+Date:   Fri May 16 00:15:32 2025 +0300
+
+    add stage artifactory v14
+
+[33mcommit 074d60ce8b5bfaa204119f37dd9730f23553fb39[m
+Author: Vladyslav Hasporian <saslasengland33@gmail.com>
+Date:   Fri May 16 00:12:35 2025 +0300
+
+    add stage artifactory v13
+
+[33mcommit d457a1b336bbdb0c23774634b7d1d183c4e2504d[m
+Author: Vladyslav Hasporian <saslasengland33@gmail.com>
+Date:   Fri May 16 00:11:08 2025 +0300
+
+    add stage artifactory v12
+
+[33mcommit 2d753e13c13ae1d5902bb56e85d5b05258dc0978[m
+Author: Vladyslav Hasporian <saslasengland33@gmail.com>
+Date:   Fri May 16 00:06:17 2025 +0300
+
+    add stage artifactory v11
+
+[33mcommit cb23aa86f37be953327cd030cb4a363134b38d49[m
+Author: Vladyslav Hasporian <saslasengland33@gmail.com>
+Date:   Fri May 16 00:01:10 2025 +0300
+
+    add stage artifactory v10
+
+[33mcommit cabde426ca1d9c4fd1d29ea109a11b351025732e[m
+Author: Vladyslav Hasporian <saslasengland33@gmail.com>
+Date:   Thu May 15 23:57:09 2025 +0300
+
+    add stage artifactory v9
+
+[33mcommit 9507bcfdb2659ede1da5f2fc59c759da3c5e3039[m
+Author: Vladyslav Hasporian <saslasengland33@gmail.com>
+Date:   Thu May 15 23:53:56 2025 +0300
+
+    add stage artifactory v8
+
+[33mcommit 84f5b37008855ea7b7834b57d1254aefdbfb79e9[m
+Author: Vladyslav Hasporian <saslasengland33@gmail.com>
+Date:   Thu May 15 23:44:29 2025 +0300
+
+    add stage artifactory v7
+
+[33mcommit abfb6d44a36cc1ab1f5a83277e04e8451e9be3aa[m
+Author: Vladyslav Hasporian <saslasengland33@gmail.com>
+Date:   Thu May 15 23:34:13 2025 +0300
+
+    add stage artifactory v6
+
+[33mcommit 0014dadb3bcdeaaaa15300e162ceed8522ca8ef9[m
+Author: Vladyslav Hasporian <saslasengland33@gmail.com>
+Date:   Thu May 15 23:29:50 2025 +0300
+
+    add stage artifactory v5
+
+[33mcommit 51c6432b789972e48e5848f101caa717919f3711[m
+Author: Vladyslav Hasporian <saslasengland33@gmail.com>
+Date:   Thu May 15 23:27:45 2025 +0300
+
+    add stage artifactory v4
+
+[33mcommit 3d97a2b10a9c65d7d7d2489fe3b59d9b9f631585[m
+Author: Vladyslav Hasporian <saslasengland33@gmail.com>
+Date:   Thu May 15 23:25:29 2025 +0300
+
+    add stage artifactory v3 change path
+
+[33mcommit 1560fecfe33470cbf8dd4404c242ad4babe953cc[m
+Author: Vladyslav Hasporian <saslasengland33@gmail.com>
+Date:   Thu May 15 23:15:00 2025 +0300
+
+    add stage artifactory v2
+
+[33mcommit c09f65d88616ca2f005c65d226cc0b18de6a27b5[m
+Author: Vladyslav Hasporian <saslasengland33@gmail.com>
+Date:   Thu May 15 23:08:03 2025 +0300
+
+    add stage artifactory
+
+[33mcommit 483401f80444edd26149911737555e3cc3928d74[m[33m ([m[1;31morigin/dev[m[33m)[m
+Author: Vladyslav Hasporian <saslasengland33@gmail.com>
+Date:   Mon May 12 18:55:01 2025 +0300
+
+    add distributionManagement
+
+[33mcommit cb82d97e255ea9501278a07b3c178fc66b6cf98b[m
+Author: Vladyslav Hasporian <saslasengland33@gmail.com>
+Date:   Mon May 12 18:48:48 2025 +0300
+
+    first commit
