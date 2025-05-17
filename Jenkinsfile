@@ -67,6 +67,7 @@ pipeline {
             steps {
                 script {
                     echo '<--------------- Docker Publish Started --------------->'
+                    def registry = 'https://salas05.jfrog.io/artifactory'
                     docker.withRegistry(registry, 'artifact-jfrog-cred') {
                         app.push()
                     }
