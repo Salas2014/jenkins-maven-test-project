@@ -58,7 +58,7 @@ pipeline {
                     def version   = '2.1.2'
 
                     echo '<--------------- Docker Build Started --------------->'
-                    def app = docker.build(imageName + ":" + version)
+                    app = docker.build(imageName + ":" + version)
                     echo '<--------------- Docker Build Ended --------------->'
                 }
             }
