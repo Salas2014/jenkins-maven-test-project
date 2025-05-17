@@ -53,6 +53,7 @@ pipeline {
         stage("Docker Build") {
             steps {
                 script {
+                    def registry = 'https://salas05.jfrog.io'
                     def imageName = 'salas05.jfrog.io/salas-project-docker-local/my-custom-image'
                     def version   = '2.1.2'
 
@@ -67,8 +68,7 @@ pipeline {
             steps {
                 script {
                     echo '<--------------- Docker Publish Started --------------->'
-                    def registry = 'https://salas05.jfrog.io'
-                    docker.withRegistry(registry, 'artifact-jfrog-cred') {
+                    docker.withRegistry('https://salas05.jfrog.io', 'artifact-jfrog-cred') {
                         app.push()
                     }
                     echo '<--------------- Docker Publish Ended --------------->'
