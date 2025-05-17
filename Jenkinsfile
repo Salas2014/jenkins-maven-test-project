@@ -21,9 +21,7 @@ pipeline {
                 script {
                     echo '<--------------- Jar Publish Started --------------->'
 
-                    // Переменная объявлена внутри script {}
                     def registry = 'https://salas05.jfrog.io/artifactory'
-
                     def server = Artifactory.newServer(
                         url: registry,
                         credentialsId: "artifact-jfrog-cred"
@@ -51,5 +49,29 @@ pipeline {
                 }
             }
         }
+
+           def imageName = 'salas05.jfrog.io/salas-project-docker-local/mySalasProjectImage'
+           def version   = '2.1.2'
+            stage(" Docker Build ") {
+              steps {
+                script {
+                   echo '<--------------- Docker Build Started --------------->'
+                   app = docker.build(imageName+":"+version)
+                   echo '<--------------- Docker Build Ends --------------->'
+                }
+              }
+            }
+
+                    stage (" Docker Publish "){
+                steps {
+                    script {
+                       echo '<--------------- Docker Publish Started --------------->'
+                        docker.withRegistry(registry, 'artifact-jfrog-cred'){
+                            app.push()
+                        }
+                       echo '<--------------- Docker Publish Ended --------------->'
+                    }
+                }
+            }
     }
 }
