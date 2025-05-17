@@ -53,7 +53,7 @@ pipeline {
         stage("Docker Build") {
             steps {
                 script {
-                    def imageName = 'salas05.jfrog.io/salas-project-docker-local/mySalasProjectImage'
+                    def imageName = 'salas05.jfrog.io/salas-project-docker-local/my-custom-image'
                     def version   = '2.1.2'
 
                     echo '<--------------- Docker Build Started --------------->'
